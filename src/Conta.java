@@ -5,6 +5,13 @@ public class Conta {
     private Cliente titular;
     private String agencia;
     
+    public Conta(double s, String n, Cliente t, String a){
+        this.depositar(s);
+        this.setNumero(n);
+        this.setTitular(t);
+        this.setAgencia(a);
+    }
+    
     public void setNumero(String numero) {
         this.numero = numero;
     }

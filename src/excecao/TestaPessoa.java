@@ -10,8 +10,8 @@ public class TestaPessoa {
             Pessoa p3 = new Pessoa("Carlos");
             
         }catch(ParametroVazioException e){
-          //vai executar o que estiver dentro do catch
-          //se aquela exceção especifica ocorrer
+            //vai executar o que estiver dentro do catch
+            //se aquela exceção especifica ocorrer
             System.out.println(e.getMessage());
         }
         
